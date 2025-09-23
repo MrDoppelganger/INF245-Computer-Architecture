@@ -1,0 +1,41 @@
+===========================================================================================================
+                                                  (Tarea 1 Arqui)
+
+===========================================================================================================
+Nombre: Vicente Rodríguez Rogers		21.303.222-4	202273503-1	200
+        Nicolás Muñoz  				21.270.184-K	202273641-0	200
+Fecha:  agosto-2025
+-----------------------------------------------------------------------------------------------------------
+
+[Herramientas Utilizadas]
+
+-----------------------------------------------------------------------------------------------------------
+-Python 3.10.12
+-----------------------------------------------------------------------------------------------------------
+
+[Ambiente de Ejecución Usado]
+
+-----------------------------------------------------------------------------------------------------------
+- Sistema Operativo usado: Windows 11, Ubuntu 22.04.5 LTS
+- visual studio code
+-----------------------------------------------------------------------------------------------------------
+
+[Instrucciones de Ejecución]
+
+-----------------------------------------------------------------------------------------------------------
+-Para la Ejecución del codigo se utilizo el runner de visual studio
+
+-----------------------------------------------------------------------------------------------------------
+
+[Consideraciones]
+
+-----------------------------------------------------------------------------------------------------------
+
+-Se asume que el usuario eligira el sistema correspondiente todo el tiempo y que genera codigos con la
+   modalidad 1 para luego utilizar el codigo generado en la modalidad 2.
+
+-Se asume que el acto de "acceder a niveles superiores de la academia" hace referencia a pasar el curso 
+    en la academia o un avance a nuevos conocimientos y no una subida de nivel de dificultad.
+
+- se asume que la tarea se basa en crear las dos modalidades en funcionamiento independiente, estableciendo
+    que la primera es para crear codigos y la segunda para su decifrado.
