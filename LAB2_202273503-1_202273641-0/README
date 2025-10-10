@@ -10,8 +10,9 @@ Fecha:  agosto-2025
 [Herramientas Utilizadas]
 
 -----------------------------------------------------------------------------------------------------------
--Word cloud
--Logism
+-overleaf
+-Logism (version otorgada por el enunciado)
+-visual studio code
 -----------------------------------------------------------------------------------------------------------
 
 [Ambiente de Ejecución Usado]
@@ -23,12 +24,23 @@ Fecha:  agosto-2025
 [Instrucciones de Ejecución]
 
 -----------------------------------------------------------------------------------------------------------
--
-
+-Para la ejecucion del circuito, hay 2 partes
+        1) El circuito decodificador: este es el encargado principal de tomar los 4 bits de entradas
+        y otorgar los 7 bits de salidas, es un conjunto de 7 segmentos, y para su uso, basta simplemente
+        con ir seleccionando los bits de entrada y ver como cambian los bits de salidas.
+        2) main: aqui se encuentra el circuito decodificador como un modulo para simplificar las visual
+        pero su funcionamiento es exactamente igual que el decodificador. Este se encuentra conectado a un
+        display de 7 segmentos (sin utilzar el su ultima patita, que indicaria el punto) y equivalente al
+        anterior, para su uso solo se requiere ir cambiando de bits de entrada para notar como cambia el 
+        display
 -----------------------------------------------------------------------------------------------------------
 
 [Consideraciones]
 
 -----------------------------------------------------------------------------------------------------------
 
--
+- El informe fue creado a partir de Latex pero los mapas y desarrollo fueron realizados a papel, y traspasados
+al informe mediante fotos en algunos casos, o rescritura directa al Latex para obtener un orden visual mucho
+mas pulcro.
+- Se asume que una representación grafica de todas las validaciones comprobadas con el circuito y el display
+es una tabla de validacion valida al cumplir los mismos efectos practicos.
