@@ -1,0 +1,56 @@
+===========================================================================================================
+                                                  (Tarea 3 Arqui)
+
+===========================================================================================================
+Nombre: Vicente Rodríguez Rogers		21.303.222-4	202273503-1	200
+        Nicolás Muñoz  				    21.270.184-K	202273641-0	200
+Fecha:  noviembre-2025
+-----------------------------------------------------------------------------------------------------------
+
+[Herramientas Utilizadas]
+
+-----------------------------------------------------------------------------------------------------------
+-overleaf
+-Logism (version otorgada por el enunciado)
+-visual studio code
+-sublime.tools
+-draw.io
+-----------------------------------------------------------------------------------------------------------
+
+[Ambiente de Ejecución Usado]
+
+-----------------------------------------------------------------------------------------------------------
+- Sistema Operativo usado: Windows 11, Ubuntu 22.04.5 LTS
+-----------------------------------------------------------------------------------------------------------
+
+[Instrucciones de Ejecución]
+
+-----------------------------------------------------------------------------------------------------------
+-Para la ejecucion del circuito: Este esta dividido en 4 secciones
+        1) decodificador de Display: este es el encargado principal de tomar los 4 bits de entradas
+        y otorgar los 7 bits de salidas, es un conjunto de 7 segmentos, y su uso esta aplicado en "main".
+        2)Transicionador de estados: un circuito de 4 entradas y 4 salidas que transforma la ubicacion
+        actual a la siguiente. su uso es aplicado en "main".
+        3)Control de carga: circuito diseñado para controlar la actualizacion de estados y el cambio entre
+        ubicacion inicial y intermedia. su uso este aplicado en "main".
+        4) main: todos los modulos anteriormente nombrados se encuentran ubicados aqui. Circuito diseñado
+        para rastrear el movimiento de los criminales y para su uso primero se debe asignar en "1" el bit
+        de control para posteriormente establecer la ubicacion inicial en las 4 entradas (A3,A2,A1,A0).
+        Desde aqui se puede aplicar manualmente los cambios en el reloj con la herramienta para cambiar
+        valores, o activar los cambios automaticos al hacer andar el tiempo en la aplicacion Logism, pero
+        antes se debe restablecer el bit de control al "0" para que los cambios de ubicaciones se vean
+        representados.
+-----------------------------------------------------------------------------------------------------------
+
+[Consideraciones]
+
+-----------------------------------------------------------------------------------------------------------
+
+- El informe fue creado a partir de Latex pero algunos elementos fueron digitalizados mediante otros instrumentos
+digitales como los mapas de karnaugh o el diagrama de estados. Otras fueron rescritura directa al Latex para 
+obtener un orden visual mucho mas pulcra.
+- Se asume que una representación grafica de las validaciones mas interesantes comprobadas con el circuito
+es una tabla de validacion valida al cumplir los mismos efectos practicos.
+-Se presupone la viabilidad de añadir una entrada extra de control al no estar restringuido en las reglas de la
+tareas, puestos a que cumple con los requisitos tecnicos y no se encuentra entre las prohibiciones su uso,
+Ademas de ser valido con la logica permitida para la realización del laboratorio
