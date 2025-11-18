@@ -21,10 +21,38 @@ Fecha:  noviembre-2025
 - Sistema Operativo usado: Windows 11, Ubuntu 22.04.5 LTS
 -----------------------------------------------------------------------------------------------------------
 
+[Desarrollo de desafios]
+
+-----------------------------------------------------------------------------------------------------------
+-Desafio 1:
+        -Para la creacion de la solución de este desafio, se programo primero una versión preliminar en 
+        lenguaje C, asi facilitar el desarrollo del desafio en el ensamblador de RISK-V (el codigo esta
+        ubicado junto a la tarea y su nombre es "desafio_1.C"). Luego con esta guia general, se fue 
+        implementado cada parte a su version de RISK-V utilizando la Recursión de stack.
+
+        Para el desarrollo de la recursion se establecio la funcion secCollatz que tendria como parametros
+        los "pasos" y el "valor" que se esta manejando en ese momento, empezaria verificando las
+        condiciones base y de salida, y al comprobar que no estamos en esa situación se prosigue con el 
+        manejo del "ra" para ir moviendonos entre las recursiones. Posteriormente se establece que 
+        procedimiento se realizara segun la paridad del valor actual y nos dirigimos a una subfuncion con
+        el actuar que nos indica Collatz, modificando el valor y entregandole los nuevos parametros de 
+        nuevo a la funcion secCollatz desde la subfuncion de llamada. esto se repetira hasta que se cumpla
+        la condicion base, y de hacerlo retornaremos el numero de pasos.
+        
+        El resto del codigo se encarga de ir iterando entre todos los IDs e ir mostrando por pantalla la 
+        información adecuada segun los numeros de pasos obtenidos.
+-----------------------------------------------------------------------------------------------------------
+
 [Instrucciones de Ejecución]
 
 -----------------------------------------------------------------------------------------------------------
-
+-Desafio 1:
+        1)Abrir el RARS y cargar el .asm "subsistema1".
+        2)Ensamblar el codigo.
+        3)ir a la seccion de Ejecución y correr el codigo ensamblado.
+        4)ingresar un valor entero (entre 5 y 20) indicando cuantos IDs se colocaran.
+        5)ir ingresando IDs colocando el valor entero seguido de un enter por cada nuevo ID.
+        6)en la seccion de I/O saldran los datos de cada ID.
 -----------------------------------------------------------------------------------------------------------
 
 [Consideraciones]
@@ -33,4 +61,4 @@ Fecha:  noviembre-2025
 -Desafio 1: Deciframiento de jerarquias criminal con Recursión.
         -Se asume que el calculo de la clave de acceso es meramente contextual, ya que no se solicita en la
         implementación del codigo.
-        
+        -Se asume que los valores ingresados seran correctos segun el enunciado
