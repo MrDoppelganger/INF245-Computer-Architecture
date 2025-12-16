@@ -41,6 +41,18 @@ Fecha:  noviembre-2025
         
         El resto del codigo se encarga de ir iterando entre todos los IDs e ir mostrando por pantalla la 
         información adecuada segun los numeros de pasos obtenidos.
+-Desafio 2:
+	-Para la creacion de la solución de este desafio, se programo primero una versión preliminar en 
+        lenguaje C, asi facilitar el desarrollo del desafio en el ensamblador de RISK-V (el codigo esta
+        ubicado junto a la tarea y su nombre es "desafio_2.C").
+        Para el desarrollo de la validación se establecieron tres subrutinas principales (capa1, capa2 y 
+        capa3), las cuales son orquestadas secuencialmente por la función main. La primera capa utiliza 
+        el stack para preservar registros mientras itera carácter por carácter, apoyándose en una función
+        auxiliar que simula strchr para verificar que se componga de mayúsculas, minúsculas, números
+        y caracteres especiales. La segunda capa procesa la clave en bloques de 4 bytes, calculando una 
+        suma de verificación para determinar la paridad de cada bloque mediante operaciones lógicas.         
+        Finalmente, la tercera capa implementa un algoritmo de hash aritmético con multiplicaciones y módulo,
+        optimizando la operación de residuo utilizando máscaras de bits (AND) para trabajar con potencias de 2.
 -----------------------------------------------------------------------------------------------------------
 
 [Instrucciones de Ejecución]
@@ -53,6 +65,13 @@ Fecha:  noviembre-2025
         4)ingresar un valor entero (entre 5 y 20) indicando cuantos IDs se colocaran.
         5)ir ingresando IDs colocando el valor entero seguido de un enter por cada nuevo ID.
         6)en la seccion de I/O saldran los datos de cada ID.
+-Desafio 2:
+	1)Abrir el RARS y cargar el .asm "subsistema2".
+        2)Ensamblar el codigo.
+        3)ir a la seccion de Ejecución y correr el codigo ensamblado.
+        4)ingresar una cadena de texto de 16 caracteres.
+        5)en caso de que la cadena pase las pruebas el programa lo indica, de lo contrario\
+        indica donde fallo
 -----------------------------------------------------------------------------------------------------------
 
 [Consideraciones]
@@ -62,3 +81,7 @@ Fecha:  noviembre-2025
         -Se asume que el calculo de la clave de acceso es meramente contextual, ya que no se solicita en la
         implementación del codigo.
         -Se asume que los valores ingresados seran correctos segun el enunciado
+-Desafio 2: Descifrador de Claves de Autenticación por Matriz de Bits
+	-Se asume que solo se ingresaran claves correctas de 16 caracteres
+	-Se asume que como el pdf indica no es necesario mostrar analisis, con el Clave aceptada/rechazada
+	y la capa del rechazo es suficiente
